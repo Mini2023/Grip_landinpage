@@ -13,10 +13,10 @@ export function Hero() {
 
   return (
     <section className="relative h-[110vh] flex flex-col items-center justify-center overflow-hidden bg-black text-white px-6">
-      
+
       {/* Background Data Streams */}
       <DataStreams />
-      
+
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/10 rounded-full blur-[120px] pointer-events-none" />
 
@@ -59,14 +59,14 @@ export function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 1 }}
       >
-        <a 
+        <a
           href="https://grip-omega.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           className="group relative flex items-center justify-center px-10 py-5 bg-white text-black font-bold text-xl rounded-full transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(255,255,255,0.4)] overflow-hidden"
         >
           <span className="relative z-10 flex items-center gap-2">
-            Visit Web 
+            Visit App
             <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
           </span>
           {/* Inner Glow */}
@@ -81,8 +81,8 @@ export function Hero() {
         transition={{ delay: 1, duration: 1.5 }}
         className="mt-12"
       >
-        <a 
-          href="https://grip-omega.vercel.app" 
+        <a
+          href="https://grip-omega.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-1 text-[10px] uppercase tracking-[0.3em] font-bold text-neutral-600 hover:text-emerald-400/80 transition-colors cursor-pointer group"

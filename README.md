@@ -13,5 +13,3 @@ A modern, high-performance landing page for the Grip ecosystem.
 - Tailwind CSS
 - Framer Motion
 - Lucide Icons
-
-```
