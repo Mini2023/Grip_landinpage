@@ -14,8 +14,4 @@ A modern, high-performance landing page for the Grip ecosystem.
 - Framer Motion
 - Lucide Icons
 
-## Getting Started
-```bash
-npm install
-npm run dev
 ```
